@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-25T00:47:42 IST" name="Default suite" finished-at="2021-09-25T00:47:42 IST" duration-ms="114">
+    <groups>
+      <group name="Regression">
+        <method signature="PersonalLoan.method3(java.lang.String,java.lang.String)[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" name="method3" class="TestPackageTestNg.PersonalLoan"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PersonalLoan.method1()[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" name="method1" class="TestPackageTestNg.PersonalLoan"/>
+        <method signature="PersonalLoan.method3(java.lang.String,java.lang.String)[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" name="method3" class="TestPackageTestNg.PersonalLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-09-25T00:47:42 IST" name="Default test" finished-at="2021-09-25T00:47:42 IST" duration-ms="114">
+      <class name="TestPackageTestNg.PersonalLoan">
+        <test-method signature="method1()[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" started-at="2021-09-25T00:47:42 IST" name="method1" finished-at="2021-09-25T00:47:42 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" started-at="2021-09-25T00:47:42 IST" name="method2" finished-at="2021-09-25T00:47:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="method3(java.lang.String,java.lang.String)[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" started-at="2021-09-25T00:47:42 IST" name="method3" data-provider="getData" finished-at="2021-09-25T00:47:42 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1 username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1 password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method3(java.lang.String,java.lang.String)[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" started-at="2021-09-25T00:47:42 IST" name="method3" data-provider="getData" finished-at="2021-09-25T00:47:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2 username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method signature="method3(java.lang.String,java.lang.String)[pri:0, instance:TestPackageTestNg.PersonalLoan@4944252c]" started-at="2021-09-25T00:47:42 IST" name="method3" data-provider="getData" finished-at="2021-09-25T00:47:42 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3 username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3 password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- TestPackageTestNg.PersonalLoan -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
